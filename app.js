@@ -24,7 +24,7 @@ sidebar.innerHTML = sublinks.map((item) => {
     return `<article> 
         <h4>${page}</h4>  
         <div class="sidebar-sublinks"> 
-            ${links.map((link) => {   
+            ${links.map((link) => {
                 return `<a href="${link.url}">    
                     <i class="${link.icon}"></i> 
                 </a>`
