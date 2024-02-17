@@ -28,7 +28,7 @@ sidebar.innerHTML = sublinks.map((item) => {
                 return `<a href="${link.url}"> 
                     <i class="${link.icon}"></i>
                 </a>`        
-            }).join('')}       
+            }).join('')}        
         </div>         
     </article>`   
 }).join('')      
