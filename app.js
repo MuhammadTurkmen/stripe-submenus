@@ -23,7 +23,7 @@ sidebar.innerHTML = sublinks.map((item) => {
     const {links, page} = item
     return `<article>
         <h4>${page}</h4>  
-        <div class="sidebar-sublinks">  
+        <div class="sidebar-sublinks">   
             ${links.map((item) => {  
                 return `<a href="${item.url}"></a>`     
             }).join('')}  
