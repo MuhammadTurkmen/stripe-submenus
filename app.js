@@ -29,4 +29,4 @@ sidebar.innerHTML = sublinks.map((item) => {
             })}
         </div>
     </article>`
-})
+}).join('')
