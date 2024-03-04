@@ -6,3 +6,6 @@ const sidebarWrapper = document.querySelector('.sidebar-wrapper')
 const sidebar = document.querySelector('.sidebar-links')
 
 const linkBtns = [...document.querySelectorAll('.linke-btn')]
+const submenu = document.querySelector('.submenu')
+const submenu = document.querySelector('.submenu')
+const submenu = document.querySelector('.submenu')
