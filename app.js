@@ -5,4 +5,4 @@ const closeBtn = document.querySelector('.close-btn')
 const sidebarWrapper = document.querySelector('.sidebar-wrapper')
 const sidebar = document.querySelector('.sidebar-links')
 
-const linkBtns = document.querySelectorAll('.linke-btn')
+const linkBtns = [...document.querySelectorAll('.linke-btn')]
