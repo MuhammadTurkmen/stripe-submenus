@@ -9,3 +9,5 @@ const linkBtns = [...document.querySelectorAll('.linke-btn')]
 const submenu = document.querySelector('.submenu')
 const hero = document.querySelector('.hero')
 const nav = document.querySelector('.nav')
+
+// hide/show sidebar
