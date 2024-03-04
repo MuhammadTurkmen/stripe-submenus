@@ -19,3 +19,6 @@ closeBtn.addEventListener('click', () => {
 })
 
 // set sidebar
+sidebar.innerHTML = sublinks.map(() => {
+    
+})
