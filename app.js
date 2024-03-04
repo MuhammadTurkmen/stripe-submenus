@@ -11,3 +11,6 @@ const hero = document.querySelector('.hero')
 const nav = document.querySelector('.nav')
 
 // hide/show sidebar
+toggleBtn.addEventListener('click', () => {
+    sidebarWrapper.classList.add('show')
+})
