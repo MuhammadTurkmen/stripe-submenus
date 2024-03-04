@@ -22,6 +22,6 @@ closeBtn.addEventListener('click', () => {
 sidebar.innerHTML = sublinks.map((item) => {
     const {links, page} = item
     return `<article>
-        <h4></h4>
+        <h4>${page}</h4>
     </article>`
 })
