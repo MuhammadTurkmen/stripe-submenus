@@ -44,6 +44,7 @@ linkBtns.forEach((btn) => {
 
         const tepmPage = sublinks.find(({page}) => page === text)
         if(tepmPage) {
+            const {page, links} = tepmPage
             submenu.classList.add('show')
             submenu.style.left = `${center}px`
             submenu.style.top = `${bottom}px`
