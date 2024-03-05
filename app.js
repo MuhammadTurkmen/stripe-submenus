@@ -52,7 +52,7 @@ linkBtns.forEach((btn) => {
                 <section>
                     <h4>${page}</h4>
                     <div class="submenu-center col-2">
-                    
+                        ${links.map(() => ).join('')}
                     </div>
                 </section>
             `
