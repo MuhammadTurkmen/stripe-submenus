@@ -37,6 +37,7 @@ linkBtns.forEach((btn) => {
     console.log(btn);
     btn.addEventListener('mouseover', function(e) {
         
+        submenu.classList.add('show')
     })
 })
 
