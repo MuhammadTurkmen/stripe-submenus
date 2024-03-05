@@ -51,6 +51,9 @@ linkBtns.forEach((btn) => {
             submenu.innerHTML = `
                 <section>
                     <h4>${page}</h4>
+                    <div class="submenu-center col-2">
+                    
+                    </div>
                 </section>
             `
         }
