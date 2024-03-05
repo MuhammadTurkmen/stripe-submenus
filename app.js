@@ -36,7 +36,7 @@ sidebar.innerHTML = sublinks.map((item) => {
 linkBtns.forEach((btn) => {
     console.log(btn);
     btn.addEventListener('mouseover', function(e) {
-        
+        const text = e.currentTarget.textContent
         submenu.classList.add('show')
     })
 })
