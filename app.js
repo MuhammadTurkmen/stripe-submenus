@@ -65,4 +65,3 @@ linkBtns.forEach((btn) => {
     })
 })
 
-console.log(linkBtns);
