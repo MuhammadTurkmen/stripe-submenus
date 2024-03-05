@@ -41,6 +41,7 @@ linkBtns.forEach((btn) => {
         const center = (tempBtn.left + tempBtn.right) / 2
         const bottom = tempBtn.bottom - 3
         submenu.classList.add('show')
+        submenu.style.left
     })
 })
 
