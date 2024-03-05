@@ -34,5 +34,7 @@ sidebar.innerHTML = sublinks.map((item) => {
 }).join('') 
 
 linkBtns.forEach((btn) => {
-    btn.addEventListener('mouseover')
+    btn.addEventListener('mouseover', function() {
+        console.log(e.currentTarget);
+    })
 })
