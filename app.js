@@ -48,6 +48,12 @@ linkBtns.forEach((btn) => {
             submenu.classList.add('show')
             submenu.style.left = `${center}px`
             submenu.style.top = `${bottom}px`
+
+
+
+            // OPTIONAL
+            let columns = 'col-2'
+
             submenu.innerHTML = `
                 <section>
                     <h4>${page}</h4>
