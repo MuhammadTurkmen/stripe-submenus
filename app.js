@@ -57,7 +57,7 @@ linkBtns.forEach((btn) => {
             submenu.innerHTML = `
                 <section>
                     <h4>${page}</h4>
-                    <div class="submenu-center col-2">
+                    <div class="submenu-center ${columns}">
                         ${links.map((link) => {
                             return `<a href="${link.url}">
                                 <i class="${link.icon}"></i> ${link.label}
