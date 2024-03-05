@@ -65,3 +65,6 @@ linkBtns.forEach((btn) => {
     })
 })
 
+hero.addEventListener('mouseover', function(e) {
+    
+})
