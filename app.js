@@ -37,6 +37,7 @@ linkBtns.forEach((btn) => {
     console.log(btn);
     btn.addEventListener('mouseover', function(e) {
         const text = e.currentTarget.textContent
+        const tempBtn = e.currentTarget.getBoundingClientRect()
         submenu.classList.add('show')
     })
 })
