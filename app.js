@@ -42,7 +42,9 @@ linkBtns.forEach((btn) => {
         const bottom = tempBtn.bottom - 3
 
 
-        const tepmPage = sublinks.find()
+        const tepmPage = sublinks.find(({page}) => {
+            
+        })
 
 
         submenu.classList.add('show')
