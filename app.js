@@ -54,7 +54,7 @@ linkBtns.forEach((btn) => {
                     <div class="submenu-center col-2">
                         ${links.map((link) => {
                             return `<a href="${link.url}">
-                                <i class="${link.icon}"></i>
+                                <i class="${link.icon}"></i> ${link.label}
                             </a>`
                         }).join('')}
                     </div>
