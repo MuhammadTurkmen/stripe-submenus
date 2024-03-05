@@ -32,3 +32,7 @@ sidebar.innerHTML = sublinks.map((item) => {
         </div>              
     </article>`   
 }).join('') 
+
+linkBtns.forEach((btn) => {
+
+})
