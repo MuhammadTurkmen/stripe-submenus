@@ -5,7 +5,7 @@ const closeBtn = document.querySelector('.close-btn')
 const sidebarWrapper = document.querySelector('.sidebar-wrapper')
 const sidebar = document.querySelector('.sidebar-links')
 
-const linkBtns = [...document.querySelectorAll('.linke-btn')]
+const linkBtns = [...document.querySelectorAll('.link-btn')]
 const submenu = document.querySelector('.submenu')
 const hero = document.querySelector('.hero')
 const nav = document.querySelector('.nav')
@@ -34,7 +34,10 @@ sidebar.innerHTML = sublinks.map((item) => {
 }).join('') 
 
 linkBtns.forEach((btn) => {
+    console.log(btn);
     btn.addEventListener('mouseover', function(e) {
         console.log(e.currentTarget);
     })
 })
+
+console.log(linkBtns);
